@@ -1,0 +1,48 @@
+#header { 
+    background-color: gold;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive; 
+    text-align: center;
+    padding: 1px;
+    border-radius: 20px;
+    border: 2px dotted black;
+    outline: 4px solid black;
+    outline-offset: 3px;
+  }
+  
+  body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+  }
+  
+  .button {
+    font-family: 'Raleway', sans-serif;
+    background-color: slateblue;
+    width:30%;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .hidden {
+  display: none;
+  }
+  
+  .buttonPlayAgain {
+    font-family: 'Raleway', sans-serif;
+    background-color: red;
+    width:50%;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #divResult {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    color: red;
+  }

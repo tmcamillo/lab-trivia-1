@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Trivia1</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway" rel="stylesheet">
+  </head>
+  
+  <body>
+  <header>
+    <div id="header">
+      <h1>TriviaShow</h1>
+      <h1>Vamos jogar?</h1>
+    </div>
+    <p class="name"></p>
+  </header>
+
+  <div id="play">
+    <p>Escolha qual tema deseja jogar</p>
+    <button class="button" onclick="quizzCountry()">PAÍSES</button>
+    <button class="button" onclick="quizzMovies()">FILMES</button> 
+  </div>
+  
+  <div id="playAgain" class="hidden"> 
+    <p id="divResult"></p>
+    <button class="buttonPlayAgain" onclick="play()">JOGUE NOVAMENTE :)</button>
+  </div>
+  
+  </body>
+</html>
